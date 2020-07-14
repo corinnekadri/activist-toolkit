@@ -54,9 +54,6 @@ p a {
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
 
-/* All of these TODOs are optional. You should change the styling based on your mockup */
-
-/* TODO (optional): Change the background color and/or border style */
 
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
@@ -69,21 +66,16 @@ ul.nav-bar {
   border-color: white;
 }
 
-/* TODO (optional): Change the font size*/
 
 li.nav {
-  /* Styling for the <li class="nav"> element */
-  float: left;
+  float: right;
   font-size: 20px;
 }
 
-/* TODO (optional): Change the font color, decoration, and/or case */
 
 li.nav a {
-  /* Styling for the <a> elements in <li class="nav"> */
   display: block;
   color: black;
-/* change border/font color to be consistent and neutral   */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -91,10 +83,8 @@ li.nav a {
   font-weight: bold;
 }
 
-/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
 
 li.nav a:hover {
-  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #FFD6EA;
   color: white;
 }
@@ -103,7 +93,6 @@ li.nav a:hover {
 /*********** CSS FOR FLEXBOX HEADING ************/
 /************************************************/
 
-/* TODO: Review the CSS properties to the flexbox container for title and intro text */
 .flex-container {
   display: flex; 
   flex-direction: row; 
@@ -119,11 +108,10 @@ li.nav a:hover {
   position: absolute;
   left:20%;
   right: 20%;
-  top: 40%; /* Change this value to move the box up or down */
-
+  top: 40%; 
 }
 
-/* TODO: Review the CSS properties to the flex item for the heading (the left box) */
+
 .heading-home {
   padding: 2%;
   color: black;
@@ -135,29 +123,19 @@ li.nav a:hover {
   background-color:#ffd6eaff;
   margin:20px;
   margin-right:10px;
-
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
-/* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #ffd6eaff; /* Add your own background color */
+  background-color: #ffd6eaff; 
   padding: 4%;
   margin: 2%;
   margin-left:1px;
-  color: black; /* Add the color of your font */
-  font-size: 20px; /* Add your font size*/
-  letter-spacing: 2px; /* Adds space between letters */
-  line-height: 1.4em; /* Adds space between lines */
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px;
+  line-height: 1.4em;
   text-align: center;
   font-family: 'Jaldi', sans-serif;
-
-  
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
 /************************************************/
@@ -192,19 +170,27 @@ li.nav a:hover {
   
 }
 
-/* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
+
 .main-message {
   background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%201.11.00%20PM.png?v=1594747549218");
 }
 
-/* TODO: Replace the current image URL with your own */
+
 .image-one {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
+  background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%201.11.17%20PM.png?v=1594747552546");
 }
 
-/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+.image-two {
+  background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%201.11.39%20PM.png?v=1594747555634");
+}
 
-/* TODO: Add more background images by repeating the process above */
+.image-three {
+  background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2F3413820.png?v=1594747546363");
+}
+
+.image-four {
+  background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%201.11.57%20PM.png?v=1594747558205");
+}
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
@@ -217,7 +203,7 @@ li.nav a:hover {
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
 
-/* TODO: Add a breakpoint if the screen is 700px or less */
+
 
 @media screen and (max-width:700px){
   .flex-container{
