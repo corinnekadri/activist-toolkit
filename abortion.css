@@ -113,16 +113,7 @@ li.nav a:hover {
   width: 45em;
   width:100%
  
-  /* Design properties */
-  background-color: #fd9ccbff;
-  padding: 5px;
-
-  /* Positioning properties */
-  position: absolute;
-  left:20%;
-  right: 20%;
-  top: 40%; /* Change this value to move the box up or down */
-
+  
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
@@ -156,6 +147,16 @@ li.nav a:hover {
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
   font-family: 'Jaldi', sans-serif;
+  width:10em;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: right; 
+  align-items: right;
+ position: relative;
+  left:10%;
+  right: 10%;
+  top: 40%; 
   
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
