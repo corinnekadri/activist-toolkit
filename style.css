@@ -111,7 +111,7 @@ li.nav a:hover {
   justify-content: center; 
   align-itmes: center;
   width: 45em;
-  width:100%
+  width:100%;
  
   /* Design properties */
   background-color: #fd9ccbff;
@@ -139,6 +139,7 @@ li.nav a:hover {
   background-color:#ffd6eaff;
   margin:20px;
   margin-right:10px;
+  width:100%;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -156,6 +157,7 @@ li.nav a:hover {
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
   font-family: 'Jaldi', sans-serif;
+  width:100%;
   
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
@@ -196,7 +198,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+  background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%201.11.00%20PM.png?v=1594747549218");
 }
 
 /* TODO: Replace the current image URL with your own */
@@ -221,5 +223,7 @@ li.nav a:hover {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 
-
+@media mediatype and (mediafeature){
+  
+}
 /* TODO: Add additional breakpoints based on your website's design
