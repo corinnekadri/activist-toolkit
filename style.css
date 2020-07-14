@@ -110,9 +110,7 @@ li.nav a:hover {
   flex-wrap: nowrap; 
   justify-content: center; 
   align-itmes: center;
-  width: 45em;
-  width:100%;
- 
+
   /* Design properties */
   background-color: #fd9ccbff;
   padding: 5px;
@@ -123,8 +121,6 @@ li.nav a:hover {
   right: 20%;
   top: 40%; /* Change this value to move the box up or down */
 
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
@@ -139,7 +135,7 @@ li.nav a:hover {
   background-color:#ffd6eaff;
   margin:20px;
   margin-right:10px;
-  width:100%;
+
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -157,7 +153,7 @@ li.nav a:hover {
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
   font-family: 'Jaldi', sans-serif;
-  width:100%;
+
   
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
@@ -223,7 +219,10 @@ li.nav a:hover {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 
-@media mediatype and (mediafeature){
+@media screen and (max-width:700px){
+  .flex-container{
+  flex-wrap: wrap;
+  top:20%;
   
 }
 /* TODO: Add additional breakpoints based on your website's design
