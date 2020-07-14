@@ -123,13 +123,11 @@ li.nav a:hover {
   padding: 2%;
   color: black;
   font-size: 50px;
-  letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  background-color:#ffd6eaff;
-  margin:20px;
-  margin-right:10px;
+  background-color:#fd9ccbff;
+  
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -137,26 +135,23 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #ffd6eaff; /* Add your own background color */
-  padding: 4%;
-  margin: 2%;
-  margin-left:1px;
+  background-color: #fd9ccbff; /* Add your own background color */
+  padding: 20px;
+  margin-right:1px;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
   font-family: 'Jaldi', sans-serif;
-  width:10em;
+  width:15em;
   display: flex; 
   flex-direction: row; 
   flex-wrap: nowrap; 
-  justify-content: right; 
-  align-items: right;
  position: relative;
-  left:10%;
+  left:68%;
   right: 10%;
-  top: 40%; 
+   
   
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
