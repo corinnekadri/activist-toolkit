@@ -169,11 +169,12 @@ li.nav a:hover {
   background-color: #fd9ccbff;
   background-size: cover;
   min-height: 100%; 
-}
+
+  background-attatchment:fixed;
   
   /* TODO: Add the property to create the parallax scrolling effect here */
   
-
+}
 
 
 .main-message {
