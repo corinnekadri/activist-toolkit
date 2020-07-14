@@ -73,7 +73,7 @@ ul.nav-bar {
 
 li.nav {
   /* Styling for the <li class="nav"> element */
-  float: right;
+  float: left;
   font-size: 20px;
 }
 
@@ -110,14 +110,16 @@ li.nav a:hover {
   flex-wrap: nowrap; 
   justify-content: center; 
   align-itmes: center;
-
+  width: 45em;
+  width:100%
+ 
   /* Design properties */
   background-color: #fd9ccbff;
   padding: 5px;
 
   /* Positioning properties */
   position: absolute;
-  left: 20%;
+  left:20%;
   right: 20%;
   top: 40%; /* Change this value to move the box up or down */
 
@@ -135,6 +137,8 @@ li.nav a:hover {
   text-align: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#ffd6eaff;
+  margin:20px;
+  margin-right:10px;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -145,6 +149,7 @@ li.nav a:hover {
   background-color: #ffd6eaff; /* Add your own background color */
   padding: 4%;
   margin: 2%;
+  margin-left:1px;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
