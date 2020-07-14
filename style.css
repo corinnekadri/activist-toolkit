@@ -21,7 +21,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
-  background-color: #0D38D3; /* Change the background color */
+  background-color: #FFD6EA; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -46,7 +46,7 @@ h2 {
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #43d6b9ff;
+  color: #FFD6EA;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
+  background-color: #FFD6EA;
   border-style: solid;
   border-color: #0D38D3;
 }
