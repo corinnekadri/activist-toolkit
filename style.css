@@ -122,14 +122,12 @@ li.nav a:hover {
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#ffd6eaff;
   margin:20px;
-  margin-right:10px;
 }
 
 .intro-text {
   background-color: #ffd6eaff; 
   padding: 4%;
   margin: 2%;
-  margin-left:1px;
   color: black; 
   font-size: 20px; 
   letter-spacing: 2px;
@@ -147,7 +145,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #FD9CCB;
+  background-color: #ffd6eaff;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
@@ -162,10 +160,19 @@ li.nav a:hover {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #43d6b9ff;
+  background-color: #fd9ccbff;
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
-
+}
+.image-two {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fd9ccbff;
+  background-size: cover;
+  min-height: 100%; 
+  
+  
   /* TODO: Add the property to create the parallax scrolling effect here */
   
 }
