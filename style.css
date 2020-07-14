@@ -46,7 +46,7 @@ h2 {
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #FFD6EA;
+  color: black;
   text-decoration: none;
 }
 
@@ -156,26 +156,21 @@ li.nav a:hover {
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one {
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #fd9ccbff;
-  background-size: cover;
-  min-height: 100%; /* This adjusts the height of the image */
-}
-.image-two {
+.image-one, 
+.image-two,
+.image-three,
+.image-four{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fd9ccbff;
   background-size: cover;
   min-height: 100%; 
-  
+}
   
   /* TODO: Add the property to create the parallax scrolling effect here */
   
-}
+
 
 
 .main-message {
@@ -188,7 +183,7 @@ li.nav a:hover {
 }
 
 .image-two {
-  background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%201.11.39%20PM.png?v=1594747555634");
+  background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%203.57.34%20PM.png?v=1594756721584");
 }
 
 .image-three {
@@ -204,6 +199,7 @@ li.nav a:hover {
   font-size: 12px;
   text-align: right;
   margin-right: 10px;
+  font-color: black;
 }
 
 /******************************************************/
