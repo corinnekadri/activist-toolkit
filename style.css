@@ -17,7 +17,7 @@ body,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
-  font-family: "Barlow Semi Condensed"; /* Change the font */
+  font-family: "Barlow Semi Condensed", sans-serif; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
@@ -62,7 +62,7 @@ ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 3px 5px;
   overflow: hidden;
   background-color: #FFD6EA;
   border-style: solid;
@@ -74,7 +74,7 @@ ul.nav-bar {
 li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* TODO (optional): Change the font color, decoration, and/or case */
@@ -105,14 +105,14 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flexbox container for title and intro text */
 .flex-container {
-  display: flex; /* Set the flexbox display */
-  flex-direction: row; /* Configure the flex items to row */
-  flex-wrap: nowrap; /* Don’t wrap the flex items */
-  justify-content: center; /* Justify the flex items to the center */
-  align-items: center; /* Align the flex items to the center */
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: center; 
+  align-itmes: center;
 
   /* Design properties */
-  background-color: #FFD6EA;
+  background-color: #fd9ccbff;
   padding: 5px;
 
   /* Positioning properties */
@@ -134,7 +134,7 @@ li.nav a:hover {
   line-height: 60px;
   text-align: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  display:flex;
+  background-color:#ffd6eaff;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -142,16 +142,16 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #FD9CCB; /* Add your own background color */
+  background-color: #ffd6eaff; /* Add your own background color */
   padding: 4%;
-  margin: 3%;
+  margin: 2%;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
   font-family: 'Jaldi', sans-serif;
-  display:flex;
+  
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
