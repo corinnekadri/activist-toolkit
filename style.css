@@ -107,8 +107,8 @@ li.nav a:hover {
 
   /* Positioning properties */
   position: absolute;
-  left:20%;
-  right: 20%;
+  left:10%;
+  right: 10%;
   top: 40%; 
 }
 
@@ -170,7 +170,7 @@ li.nav a:hover {
   background-size: cover;
   min-height: 100%; 
 
-  background-attatchment:fixed;
+  background-attachment:fixed;
   
   /* TODO: Add the property to create the parallax scrolling effect here */
   
