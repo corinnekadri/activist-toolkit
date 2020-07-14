@@ -6,7 +6,7 @@
   width: 100%;
   position: absolute;
   text-transform: uppercase;
-  background-color: #0D38D3;
+  background-color: #FFD6EA;
 }
 
 
@@ -84,7 +84,7 @@
 
 /* Intructions inside the list container */
 #instructions {
-  font: 14px "Roboto", sans-serif;
+  font: 14px "Barlow Semi Condensed", sans-serif;
   text-align: center;
   font-style: italic;
   color: #0D38D3;
