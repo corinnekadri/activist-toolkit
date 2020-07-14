@@ -11,7 +11,39 @@ The CSS for the take-action.html is in take-action.css
 /************************************************/
 /************* UNIVERSAL ELEMENTS ***************/
 /************************************************/
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 3px 5px;
+  overflow: hidden;
+  background-color: #FFD6EA;
+  border-style: solid;
+  border-color: #FFEFFC;
+}
 
+
+li.nav {
+  float: right;
+  font-size: 20px;
+}
+
+
+li.nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+li.nav a:hover {
+  background-color: #FFD6EA;
+  color: white;
+}
 /* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
 body,
 html {
