@@ -9,44 +9,13 @@
 .page-header-action {
   width: 100%;
   position: absolute;
-  margin: 2%;
-  color: black;
-  font-size: 50px;
-  text-align: center;
-  letter-spacing: 10px;
-  line-height: 60px;
+  text-transform:uppercase;
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: #fd9ccbff;
-  border: 2px solid #FFEFFC;
+  background-color: red;
 }
 
-ul.nav-bar {
-  /* Styling for the <ul class="nav-bar"> element */
-  list-style-type: none;
-  margin: 0;
-  padding: 3px 5px;
-  overflow: hidden;
-  background-color: #FFD6EA;
-  border-style: solid;
-  border-color: #FFEFFC;
-}
 
-li.nav {
-  float: right;
-  font-size: 20px;
-}
-
-li.nav a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-li.nav a:hover {
+#my-list li.nav a:hover {
   background-color: #FFD6EA;
   color: white;
 }
