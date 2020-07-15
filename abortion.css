@@ -119,7 +119,7 @@ li.nav a:hover {
 }
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
-.heading-home {
+.heading-home-abortion {
   padding: 2%;
   color: black;
   font-size: 50px;
@@ -127,6 +127,7 @@ li.nav a:hover {
   text-align: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#fd9ccbff;
+  
   
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
@@ -177,8 +178,8 @@ li.nav a:hover {
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
-.main-message,
-.image-one {
+.main-message-abortion,
+.image-one-abortion {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -191,12 +192,12 @@ li.nav a:hover {
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
-.main-message {
+.main-message-abortion {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
 }
 
 /* TODO: Replace the current image URL with your own */
-.image-one {
+.image-one-abortion {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
 }
 
