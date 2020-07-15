@@ -31,6 +31,7 @@ h1 {
   /*TODO: Change the font-family property to your linked font*/
   font-family: "Barlow Semi Condensed", sans-serif;
   color: black;
+  line-height: 60px;
   text-align: center;
 }
 

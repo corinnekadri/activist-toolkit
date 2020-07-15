@@ -26,14 +26,16 @@ html {
 }
 
 h1 {
-  margin:2%;
-  color: black;
-  font-size: 50px;
-  text-align:center;
   letter-spacing: 5px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  background-color:#fd9ccbff;
-  border: 2px solid #FFEFFC;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: black;
+  line-height: 60px;
+  text-align: center;
+  background-color: #FFD6EA; /* Change the background color */
+  box-sizing: border-box;
+
 }
 
 /*TODO: Change the font-family property to your linked font*/
@@ -126,11 +128,11 @@ li.nav a:hover {
   color: black;
   font-size: 50px;
   text-align:center;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   line-height: 60px;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#fd9ccbff;
-  border: 2px solid #FFEFFC;*/
+  border: 2px solid #FFEFFC;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
