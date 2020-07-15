@@ -82,7 +82,7 @@ li.nav a:hover {
   font-color:red;
   flex-grow: 2;
   font-family: "Jaldi", sans-serif;
-   font-size: 81010px;
+   font-size: 16px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
