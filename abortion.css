@@ -45,16 +45,13 @@ h2 {
   color: black;
   text-align: center;
   line-height: 1.3em;
-  
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
   color: #FFD6EA;
   text-decoration: none;
-  
 }
-
 
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
@@ -78,7 +75,6 @@ p a {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text-abortion {
-  
   background-color: #FD9CCB;
   padding: 20px 45px;
   margin: 35px;
