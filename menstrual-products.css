@@ -111,7 +111,7 @@ li.nav a:hover {
   justify-content: center; 
   align-items: center;
   width: 45em;
-  width:100%
+  width:100%;
  
   /* Design properties */
   background-color: #fd9ccbff;
@@ -137,8 +137,7 @@ li.nav a:hover {
   text-align: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#ffd6eaff;
-  margin:20px;
-  margin-right:10px;
+ 
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/

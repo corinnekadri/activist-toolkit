@@ -110,8 +110,7 @@ li.nav a:hover {
   left:10%;
   right: 10%;
   top: 40%; 
-width:20px;
-  width:100%;
+
 }
 
 
@@ -126,14 +125,12 @@ width:20px;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#ffd6eaff;
   border: 2px solid #FFEFFC;
-  width:100%;
 }
 
 .intro-text {
   background-color: #ffd6eaff; 
   padding: 4%;
   margin: 2%;
-  margin:20px;
   color: black; 
   font-size: 20px; 
   letter-spacing: 2px;
@@ -141,8 +138,6 @@ width:20px;
   text-align: center;
   font-family: 'Jaldi', sans-serif;
   border: 2px solid #FFEFFC;
-  display:flex;
-  width:100%;
   
 }
 
