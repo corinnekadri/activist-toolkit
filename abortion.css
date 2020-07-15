@@ -26,13 +26,15 @@ html {
 }
 
 h1 {
-  letter-spacing: 5px;
-  font-size: 50px;
-  /*TODO: Change the font-family property to your linked font*/
-  font-family: "Barlow Semi Condensed", sans-serif;
+  margin:2%;
   color: black;
-  text-align: center;
-  b
+  font-size: 50px;
+  text-align:center;
+  letter-spacing: 10px;
+  line-height: 60px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color:#fd9ccbff;
+  border: 2px solid #FFEFFC;
 }
 
 /*TODO: Change the font-family property to your linked font*/
@@ -120,7 +122,7 @@ li.nav a:hover {
 }
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
-.heading-home-abortion {
+/*heading-home-abortion {
   margin:2%;
   color: black;
   font-size: 50px;
@@ -129,7 +131,7 @@ li.nav a:hover {
   line-height: 60px;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#fd9ccbff;
-  border: 2px solid #FFEFFC;
+  border: 2px solid #FFEFFC;*/
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -140,7 +142,7 @@ li.nav a:hover {
   background-color: #fd9ccbff; /* Add your own background color */
   padding: 20px;
   margin-right:1px;
-  color: black; /* Add the color of your font */
+  color: red; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
@@ -154,7 +156,11 @@ li.nav a:hover {
   left:68%;
   right: 10%;
    
-  
+  background-color: #FD9CCB;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
+}
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
