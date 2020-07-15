@@ -49,7 +49,7 @@ li.nav a:hover {
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
   font-family: 'Jaldi', sans-serif;
-  width:40%;
+  
   display: flex; 
   flex-direction: row; 
   
@@ -61,14 +61,15 @@ li.nav a:hover {
 }
 .resources{
   display:flex;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
   height:4em;
   position:absolute;
-  justify-content:space-evenly;
+  width:1
+ 
 
 }
 .resources-img{
-  width:50%;
+  
   display:flex;
   flex-direction:row;
   
