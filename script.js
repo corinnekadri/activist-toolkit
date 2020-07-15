@@ -8,8 +8,8 @@ fullItemList.addEventListener("click", checkOffItem);
 }
 
 function checkOffItem(clicked){
-  if (clicked.target.tagName=="LI"){;
-    clicked.target.classList.toggle("all-done")
+  if (clicked.target.tagName=="LI"){
+    clicked.target.classList.toggle("all-done");
   }
 }
 /* TODO: Add a variable to store the "my-list" element */
