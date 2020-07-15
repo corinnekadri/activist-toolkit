@@ -1,7 +1,8 @@
 /************************************************/
 /********* ADD CHECKLIST FUNCTIONALITY **********/
 /************************************************/
-
+var fullItemList= document.getElementById("my-list");
+fullItemList.addEventListener("click");// add click
 /* TODO: Add a variable to store the "my-list" element */
 
 
