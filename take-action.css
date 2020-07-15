@@ -79,7 +79,7 @@ li.nav a:hover {
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 35px;
-  font-color:red;
+  color:black;
   flex-grow: 2;
   font-family: "Jaldi", sans-serif;
    font-size: 16px;
@@ -114,7 +114,7 @@ li.nav a:hover {
 /* Header in the list container */
 #checklist-header {
   text-align: center;
-  color: #0D38D3;
+  color: black;
   letter-spacing: 1px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -124,8 +124,8 @@ li.nav a:hover {
   font: 14px "Barlow Semi Condensed", sans-serif;
   text-align: center;
   font-style: italic;
-  color: #0D38D3;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  color: red;
+  /*border-style: dotted; *//*Uncomment to see the outline of the container*/
 }
 
 /* The div container for the unordered action item list */
@@ -175,12 +175,12 @@ like a checkmark!
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
   background: #f3f3f3;
-  color: #0D38D3;
+  color: red;
 }
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: #0D38D3;
+  border-color: red;
   border-style: solid;
 }
 
