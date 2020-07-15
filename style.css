@@ -59,7 +59,7 @@ ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
   margin: 0;
-  padding: 3px 5px;
+  padding:0;
   overflow: hidden;
   background-color: #FFD6EA;
   border-style: solid;
@@ -69,7 +69,7 @@ ul.nav-bar {
 
 li.nav {
   float: right;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
@@ -96,13 +96,12 @@ li.nav a:hover {
 .flex-container {
   display: flex; 
   flex-direction: row; 
-  flex-wrap: nowrap; 
   justify-content: center; 
   align-items: center;
 
   /* Design properties */
   background-color: #fd9ccbff;
-  padding: 5px;
+  padding: 10px;
   border: 6px solid #FFEFFC;
 
   /* Positioning properties */
@@ -110,26 +109,27 @@ li.nav a:hover {
   left:10%;
   right: 10%;
   top: 40%; 
+  
 }
 
 
 .heading-home {
-  padding: 2%;
+  padding: 4%;
+  margin:2%;
   color: black;
   font-size: 50px;
+  text-align:center;
   letter-spacing: 10px;
   line-height: 60px;
-  text-align: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#ffd6eaff;
-  margin:20px;
   border: 2px solid #FFEFFC;
 }
 
 .intro-text {
   background-color: #ffd6eaff; 
   padding: 4%;
-  margin: 3%;
+  margin: 2%;
   color: black; 
   font-size: 20px; 
   letter-spacing: 2px;
@@ -137,6 +137,7 @@ li.nav a:hover {
   text-align: center;
   font-family: 'Jaldi', sans-serif;
   border: 2px solid #FFEFFC;
+  width:8px;
 }
 
 /************************************************/
@@ -167,10 +168,9 @@ li.nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fd9ccbff;
-  background-repeat:no-repeat;
   background-size: cover;
   min-height: 100%; 
-
+ 
 
   background-attachment:fixed;
   
