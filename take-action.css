@@ -11,9 +11,15 @@
 .page-header-action {
   width: 100%;
   position: absolute;
-  text-transform: uppercase;
-  background-color: #FFD6EA;
-  font-family: "Barlow Semi Condensed", sans-serif; /* Change the font */
+  margin:2%;
+  color: black;
+  font-size: 50px;
+  text-align:center;
+  letter-spacing: 10px;
+  line-height: 60px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color:#fd9ccbff;
+  border: 2px solid #FFEFFC;
 }
 
 

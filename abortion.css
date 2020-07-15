@@ -32,6 +32,7 @@ h1 {
   font-family: "Barlow Semi Condensed", sans-serif;
   color: black;
   text-align: center;
+  b
 }
 
 /*TODO: Change the font-family property to your linked font*/
@@ -120,15 +121,15 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home-abortion {
-  padding: 2%;
+  margin:2%;
   color: black;
   font-size: 50px;
+  text-align:center;
+  letter-spacing: 10px;
   line-height: 60px;
-  text-align: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color:#fd9ccbff;
-  
-  
+  border: 2px solid #FFEFFC;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
