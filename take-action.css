@@ -72,8 +72,7 @@
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
-  border-style: solid;
-  border-color: #43d6b9ff;
+  border: 10px solid #fd9ccbff;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -90,7 +89,7 @@
   font: 14px "Barlow Semi Condensed", sans-serif;
   text-align: center;
   font-style: italic;
-  color: red;
+  color: black;
   /*border-style: dotted; *//*Uncomment to see the outline of the container*/
 }
 
@@ -120,7 +119,7 @@
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: red;
+  border-color: black;
   border-style: solid;
   border-width: 2px;
 
@@ -140,26 +139,27 @@ like a checkmark!
 
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
-  background:red;
-  color: red;
+  background:#f3f3f3;
+  color: #fd9ccbff;
 }
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: red;
+  border-color: #fd9ccbff;
   border-style: solid;
 }
 
 /* When marked complete (i.e. clicked on) add strikethrough */
 #my-list li.all-done {
   text-decoration: line-through;
+  color:#fd9ccbff;
 }
 
 /* Add a "checked" mark when clicked on */
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: red;
+  border-color: #fd9ccbff;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
