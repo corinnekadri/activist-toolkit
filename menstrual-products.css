@@ -36,14 +36,6 @@ h1 {
 }
 
 /*TODO: Change the font-family property to your linked font*/
-h2 {
-  letter-spacing: 3px;
-  font-size: 25px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  color: black;
-  text-align: center;
-  line-height: 1.3em;
-}
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
