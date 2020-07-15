@@ -121,7 +121,7 @@ li.nav a:hover {
 }
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
-.heading-home {
+/*.heading-home {
   padding: 2%;
   color: black;
   font-size: 50px;

@@ -45,12 +45,14 @@ h2 {
   color: black;
   text-align: center;
   line-height: 1.3em;
+  
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
   color: #FFD6EA;
   text-decoration: none;
+  
 }
 
 /************************************************/
@@ -124,23 +126,7 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text-abortion {
-  background-color: #fd9ccbff; /* Add your own background color */
-  padding: 20px;
-  margin-right: 1px;
-  color: red; /* Add the color of your font */
-  font-size: 20px; /* Add your font size*/
-  letter-spacing: 2px; /* Adds space between letters */
-  line-height: 1.4em; /* Adds space between lines */
-  text-align: center;
-  font-family: "Jaldi", sans-serif;
-  width: 15em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  position: relative;
-  left: 68%;
-  right: 10%;
-
+  
   background-color: #FD9CCB;
   padding: 20px 45px;
   margin: 35px;
