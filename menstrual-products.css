@@ -59,12 +59,12 @@ p a {
 
   /* Design properties */
   background-color: #fd9ccbff;
-  padding: 5px;
+  padding:5px;
 
   /* Positioning properties */
   position: absolute;
   left: 20%;
-  right: 20%;
+  right:20%;
   top: 40%; /* Change this value to move the box up or down */
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
