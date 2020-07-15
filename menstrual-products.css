@@ -76,7 +76,7 @@ li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
   color: black;
-/* change border/font color to be consistent and neutral   */
+  /* change border/font color to be consistent and neutral   */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -98,21 +98,21 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flexbox container for title and intro text */
 .flex-container {
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: nowrap; 
-  justify-content: center; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
   width: 45em;
-  width:100%;
- 
+  width: 100%;
+
   /* Design properties */
   background-color: #fd9ccbff;
   padding: 5px;
 
   /* Positioning properties */
   position: absolute;
-  left:20%;
+  left: 20%;
   right: 20%;
   top: 40%; /* Change this value to move the box up or down */
 
@@ -128,9 +128,8 @@ li.nav a:hover {
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  background-color:#ffd6eaff;
- 
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #ffd6eaff;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -141,14 +140,13 @@ li.nav a:hover {
   background-color: #ffd6eaff; /* Add your own background color */
   padding: 4%;
   margin: 2%;
-  margin-left:1px;
+  margin-left: 1px;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
-  font-family: 'Jaldi', sans-serif;
-  
+  font-family: "Jaldi", sans-serif;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -183,7 +181,6 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-  
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
@@ -213,5 +210,4 @@ li.nav a:hover {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 
-
-/* TODO: Add additional breakpoints based on your website's design
+/* TODO: Add additional breakpoints based on your website's design*/

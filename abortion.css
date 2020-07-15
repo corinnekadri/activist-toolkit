@@ -26,17 +26,15 @@ html {
 }
 
 h1 {
-  margin:2%;
+  margin: 2%;
   color: black;
   font-size: 50px;
-  text-align:center;
+  text-align: center;
   letter-spacing: 5px;
   line-height: 60px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  background-color:#fd9ccbff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #fd9ccbff;
   border: 2px solid #FFEFFC;
-
-
 }
 
 /*TODO: Change the font-family property to your linked font*/
@@ -88,7 +86,7 @@ li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
   color: black;
-/* change border/font color to be consistent and neutral   */
+  /* change border/font color to be consistent and neutral   */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -110,50 +108,47 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flexbox container for title and intro text */
 .flex-container-abortion {
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: nowrap; 
-  justify-content: center; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
   width: 45em;
-  width:100%
- 
-  
+  width: 100%;
+
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 
-
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text-abortion {
   background-color: #fd9ccbff; /* Add your own background color */
   padding: 20px;
-  margin-right:1px;
+  margin-right: 1px;
   color: red; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
-  font-family: 'Jaldi', sans-serif;
-  width:15em;
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: nowrap; 
- position: relative;
-  left:68%;
+  font-family: "Jaldi", sans-serif;
+  width: 15em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 68%;
   right: 10%;
-   
+
   background-color: #FD9CCB;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
 }
 
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
-}
+/*Debugging Tip: Uncomment the line below to see the outline of the container*/
+/*border-style: dotted;*/
 
 /************************************************/
 /*************** PARALLAX SCROLL ****************/
@@ -184,7 +179,6 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-  
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
@@ -214,5 +208,4 @@ li.nav a:hover {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 
-
-/* TODO: Add additional breakpoints based on your website's design
+/* TODO: Add additional breakpoints based on your website's design*/

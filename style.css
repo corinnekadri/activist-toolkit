@@ -21,7 +21,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: black; /* Change the font color*/
-  background-color: #fd9ccbff; 
+  background-color: #fd9ccbff;
   box-sizing: border-box;
 }
 
@@ -54,24 +54,21 @@ p a {
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
 
-
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
   margin: 0;
-  padding:0;
+  padding: 0;
   overflow: hidden;
   background-color: #FFD6EA;
   border-style: solid;
   border-color: #FFEFFC;
 }
 
-
 li.nav {
   float: right;
   font-size: 15px;
 }
-
 
 li.nav a {
   display: block;
@@ -83,7 +80,6 @@ li.nav a {
   font-weight: bold;
 }
 
-
 li.nav a:hover {
   background-color: #FFD6EA;
   color: white;
@@ -94,10 +90,10 @@ li.nav a:hover {
 /************************************************/
 
 .flex-container {
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
-  flex-wrap:nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
   align-items: center;
 
   /* Design properties */
@@ -107,38 +103,35 @@ li.nav a:hover {
 
   /* Positioning properties */
   position: absolute;
-  left:10%;
+  left: 10%;
   right: 10%;
-  top: 40%; 
-
+  top: 40%;
 }
-
 
 .heading-home {
   padding: 4%;
-  margin:2%;
+  margin: 2%;
   color: black;
   font-size: 50px;
-  text-align:center;
+  text-align: center;
   letter-spacing: 10px;
   line-height: 60px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  background-color:#ffd6eaff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #ffd6eaff;
   border: 2px solid #FFEFFC;
 }
 
 .intro-text {
-  background-color: #ffd6eaff; 
+  background-color: #ffd6eaff;
   padding: 4%;
   margin: 2%;
-  color: black; 
-  font-size: 20px; 
+  color: black;
+  font-size: 20px;
   letter-spacing: 2px;
   line-height: 1.4em;
   text-align: center;
-  font-family: 'Jaldi', sans-serif;
+  font-family: "Jaldi", sans-serif;
   border: 2px solid #FFEFFC;
-  
 }
 
 /************************************************/
@@ -161,29 +154,25 @@ li.nav a:hover {
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one, 
+.image-one,
 .image-two,
 .image-three,
-.image-four{
+.image-four {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fd9ccbff;
   background-size: cover;
-  min-height: 100%; 
- 
+  min-height: 100%;
 
-  background-attachment:fixed;
-  
+  background-attachment: fixed;
+
   /* TODO: Add the property to create the parallax scrolling effect here */
-  
 }
-
 
 .main-message {
   background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%201.11.00%20PM.png?v=1594747549218");
 }
-
 
 .image-one {
   background-image: url("https://cdn.glitch.com/52006f80-aea3-4604-8d40-e1ccf71deace%2FScreen%20Shot%202020-07-14%20at%201.11.17%20PM.png?v=1594747552546");
@@ -213,16 +202,9 @@ li.nav a:hover {
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
 
-
-
-@media screen and (max-width:700px){
-  
-  
-  
-  .flex-container{
-  flex-wrap: wrap;
-  top:20%;
-  
+@media screen and (max-width: 700px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
 }
-  
-
