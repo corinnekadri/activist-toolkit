@@ -15,10 +15,7 @@
 }
 
 
-#my-list li.nav a:hover {
-  background-color: #FFD6EA;
-  color: white;
-}
+
 /* Flexbox container that holds all flex items */
 .flex-container-action {
   display: flex;

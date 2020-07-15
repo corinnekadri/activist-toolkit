@@ -43,54 +43,8 @@ p a {
   text-decoration: none;
 }
 
-/************************************************/
-/*************** CSS FOR NAV BAR ****************/
-/************************************************/
 
-/* All of these TODOs are optional. You should change the styling based on your mockup */
 
-/* TODO (optional): Change the background color and/or border style */
-
-ul.nav-bar {
-  /* Styling for the <ul class="nav-bar"> element */
-  list-style-type: none;
-  margin: 0;
-  padding: 3px 5px;
-  overflow: hidden;
-  background-color: #FFD6EA;
-  border-style: solid;
-  border-color: white;
-}
-
-/* TODO (optional): Change the font size*/
-
-li.nav {
-  /* Styling for the <li class="nav"> element */
-  float: right;
-  font-size: 20px;
-}
-
-/* TODO (optional): Change the font color, decoration, and/or case */
-
-li.nav a {
-  /* Styling for the <a> elements in <li class="nav"> */
-  display: block;
-  color: black;
-  /* change border/font color to be consistent and neutral   */
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
-
-li.nav a:hover {
-  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #FFD6EA;
-  color: white;
-}
 
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
