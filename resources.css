@@ -62,9 +62,10 @@ li.nav a:hover {
 .resources{
   display:flex;
   flex-wrap:wrap;
-  height:6em;
+  height:4em;
   position:absolute;
   justify-content:space-evenly;
+
 }
 .resources-img{
   width:50%;
