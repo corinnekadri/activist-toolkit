@@ -154,7 +154,7 @@ li.nav a:hover {
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: red;
   border-style: solid;
   border-width: 2px;
 
@@ -174,7 +174,7 @@ like a checkmark!
 
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
-  background: #f3f3f3;
+  background:red;
   color: red;
 }
 
@@ -193,7 +193,7 @@ like a checkmark!
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0D38D3;
+  border-color: red;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
