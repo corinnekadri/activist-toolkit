@@ -129,7 +129,7 @@ li.nav a:hover {
 .intro-text {
   background-color: #ffd6eaff; 
   padding: 4%;
-  margin: 2%;
+  margin: 3%;
   color: black; 
   font-size: 20px; 
   letter-spacing: 2px;
@@ -167,8 +167,10 @@ li.nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fd9ccbff;
+  background-repeat:no-repeat;
   background-size: cover;
   min-height: 100%; 
+
 
   background-attachment:fixed;
   
