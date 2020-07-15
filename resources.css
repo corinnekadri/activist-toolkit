@@ -52,21 +52,28 @@ li.nav a:hover {
   width:40%;
   display: flex; 
   flex-direction: row; 
-  flex-wrap: nowrap; 
- position: relative;
+  
+ 
   float:left;
+  
+  
+  
 }
 .resources{
-  
+  display:flex;
+  flex-wrap:wrap;
+  height:6em;
+  position:absolute;
+  justify-content:space-evenly;
 }
 .resources-img{
   width:50%;
   display:flex;
   flex-direction:row;
-  flex-wrap:nowrap;
-  position:relative;
+  
   float:right;
   margin:8px;
+  
   
 }
 
