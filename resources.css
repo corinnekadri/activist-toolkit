@@ -41,7 +41,6 @@ li.nav a:hover {
 }
 
 .intro-text-resources {
-  background-color: #fd9ccbff; /* Add your own background color */
   margin:8px;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
@@ -49,31 +48,21 @@ li.nav a:hover {
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
   font-family: 'Jaldi', sans-serif;
-  
   display: flex; 
-  flex-direction: row; 
-  
- 
-  float:left;
-  
-  
-  
+   width:500px;  
 }
+
 .resources{
   display:flex;
   flex-wrap:nowrap;
-  height:4em;
-  position:absolute;
-  width:1
+  flex-direction:row;
+  justify-content:space-around;
+  height:12em;
  
 
 }
 .resources-img{
-  
   display:flex;
-  flex-direction:row;
-  
-  float:right;
   margin:8px;
   
   
