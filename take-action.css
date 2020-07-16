@@ -74,14 +74,12 @@ h1 {
   margin: 5% 0;
   width: 90%;
 
-  
+  align-text:center;
   width:100%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
-  align:space-between;
- 
   border-style: dotted; /*Uncomment to see the outline of the container*/
 }
 
