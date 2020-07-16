@@ -96,13 +96,17 @@ p a {
 
 /* TODO (optional): Change the background color and/or text alignment */
 
-.text-section-men {
-  background-color: #FD9CCB;
-  padding: 20px 45px;
-  margin: 35px;
-  text-align: center;
+.menstrual {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 12em;
 }
-
+.menstrual-img {
+  display: flex;
+  margin: 8px;
+}
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */
