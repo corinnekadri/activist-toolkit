@@ -7,18 +7,18 @@
 /******************************************************/
 .take-action{
   height:140%;
-  
+  overflow:hidden;
   
 }
 .resources{
   height:140%;
+  overflow:hidden;
   
 }
 .take-action-full{
   display:flex;
   flex-direction:column;
-  flex-grow: 1;
-    flex-shrink: 0;
+  
   flex-flow:column wrap;
 
 width:100%;
@@ -55,7 +55,7 @@ h1 {
   text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width: 500px;
+  
 }
 
 .intro-resources {
