@@ -23,6 +23,13 @@ h1 {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: #fd9ccbff;
 }
+.protest-img{
+  border: 8px solid #fd9ccbff;
+}
+
+.glove-img{
+  border: 8px solid #fd9ccbff;
+}
 
 /* Flexbox container that holds all flex items */
 .flex-container-action {
@@ -238,7 +245,11 @@ like a checkmark!
     margin-right: 10%;
   }
 }
-
+.resources{
+  
+  margin-left:30em;
+  padding-left:30em;
+}
 .box1-text-resources{
   margin: 8px;
   margin-left:15px;
@@ -251,7 +262,7 @@ like a checkmark!
   font-family: "Jaldi", sans-serif;
   display: flex;
   height:14em;
-  width:500px;
+  width:700px;
   background-color:#fd9ccbff;
   flex-direction:column;
   padding:8px;
@@ -291,7 +302,7 @@ like a checkmark!
   text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width:500px;
+  width:700px;
   height:12em;
   background-color:#fd9ccbff;
   flex-direction:column;
@@ -332,7 +343,7 @@ like a checkmark!
   text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width:500px;
+  width:700px;
   background-color:#fd9ccbff;
   flex-direction:column;
   padding:8px;
@@ -351,11 +362,11 @@ like a checkmark!
   text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width:500px;
+  width:700px;
   background-color:#fd9ccbff;
   flex-direction:column;
    border: 8px solid white;
-  text-decoration: underline;
+
   
 }
 
@@ -394,8 +405,6 @@ h4 {
   padding-bottom:10px;
   padding-right:0px;
   padding-left:0px;
-  border: 2px solid black;
-  text-decoration: underline;
   margin-top:7px;
   margin-bottom:-7px;
 }
@@ -403,17 +412,22 @@ h4 {
 /* unvisited link */
 a:link {
   color: red;
+  text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
   color: #fc4ea2;
+  text-decoration: underline;
 }
 
 /* mouse over link */
 a:hover {
   color: hotpink;
+  text-decoration: underline;
 }
 
 /* selected link */
 a:active {
+}
+; &nbsp;
