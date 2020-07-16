@@ -51,6 +51,7 @@ h1 {
   display:flex;
   flex-direction:column;
   width: 100%;
+  width:20em;
   margin-right: 5%;
   margin-left: 0;
   margin-top: 5%;
@@ -79,6 +80,7 @@ h1 {
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
+  
   background-color: #0d9c90;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -237,5 +239,143 @@ like a checkmark!
   }
 }
 
+.box1-text-resources{
+  margin: 8px;
+  margin-left:15px;
+  margin-right:15px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 20px; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:500px;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+  padding:8px;
+  border: 8px solid white;
+  border-radius:20%;
+  
+}
+
+.box2-text-resources{
+  margin: 8px;
+  margin-left:15px;
+  margin-right:15px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 20px; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:500px;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+  padding:8px;
+   border: 8px solid white;
+  border-radius:20%;
+}
+
+.box3-text-resources{
+  margin: 8px;
+  margin-left:15px;
+  margin-right:15px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 20px; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:15empx;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+   border: 8px solid white;
+  border-radius:20%;
+}
+
+
+.box4-text-resources{
+  margin: 8px;
+  margin-left:15px;
+  margin-right:15px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 20px; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:700px;
+  height:12em;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+  padding:8px;
+  border: 8px solid white;
+  border-radius:10%;
+  
+}
+
+.box5-text-resources{
+  margin: 8px;
+  margin-left:15px;
+  margin-right:15px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 20px; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:500px;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+  padding:8px;
+   border: 8px solid white;
+  border-radius:20%;
+}
+
+.box6-text-resources{
+  margin: 8px;
+  margin-left:15px;
+  margin-right:15px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 20px; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:500px;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+   border: 8px solid white;
+  border-radius:20%;
+}
+
+
+
+
+.box7-text-resources{
+  margin: 8px;
+  margin-left:15px;
+  margin-right:15px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 20px; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:500px;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+  padding:8px;
+  border: 8px solid white;
+  border-radius:20%;
+  
+}
 
 
