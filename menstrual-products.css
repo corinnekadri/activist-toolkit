@@ -127,21 +127,32 @@ p a {
   text-align: center;
 }
 
-.menstrual {
-  width: 500px;
+.menstrual-taxes {
+  width: 700px;
   border: 15px;
-  padding: 50px;
+  padding: 75px;
   margin: 20px;
 }
 
-.menstrual-img {
+.menstrual-taxes-img {
   display: flex;
   margin: 50px;
-/*   text-align: right; */
-/*   width:150px;
-  height:150px; */
   float:right;
   position: relative; top: -315px;
+}
+
+.menstrual-change {
+  width: 700px;
+  border: 15px;
+  padding: 75px;
+  margin: 20px;
+}
+
+.menstrual-change-img {
+  display: flex;
+  margin: 50px;
+  float:right;
+  position: relative; top: -115px;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/

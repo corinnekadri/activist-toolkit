@@ -17,7 +17,8 @@
 /* Flexbox container that holds all flex items */
 .flex-container-action {
   display: flex;
- overflow:hidden;
+
+ 
   position: absolute;
   padding: 0.5em 0;
   align-items: center;
@@ -30,7 +31,7 @@
 
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: start;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -50,6 +51,7 @@
   flex-grow: 2;
   font-family: "Jaldi", sans-serif;
   font-size: 16px;
+  overflow:hidden;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -63,25 +65,21 @@
 
 /* Right box under title; item in .flex-container */
 .action-list-container {
-  width: 75%;
+  width: 20%;
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
   background-color: #0d9c90;
-  overflow:hidden
-    
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
   background-color: white;
-  /*overflow:auto;*/
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
   justify-content:center;
-  
   border: 10px solid #fd9ccbff;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -100,7 +98,6 @@
   text-align: center;
   font-style: italic;
   color: black;
-  /*overflow:hidden;*/
   /*border-style: dotted; */ /*Uncomment to see the outline of the container*/
 }
 
