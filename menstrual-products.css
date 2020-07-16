@@ -155,6 +155,8 @@ p a {
   margin: 50px;
   float:right;
   position: relative; top: 90px;
+  border: 8px solid white;
+  border-radius:20%;
 }
 
 
@@ -185,6 +187,8 @@ p a {
   margin: 50px;
   float:right;
   position: relative; top: 100px; right: 0px;
+  border: 8px solid white;
+  border-radius:20%;
 } 
 
 
