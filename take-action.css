@@ -5,14 +5,9 @@
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
 /******************************************************/
-.take-action-full{
-  display:flex;
-  flex-direction:column;
+
   
 
-width:100%;
-  
-}
 h1 {
   margin: 2%;
   color: black;
@@ -45,11 +40,13 @@ h1 {
 }
 .take-action{
   height:140%;
-  
+  flex-wrap:wrap;
+  position:relative;
 }
 .resources{
   height:140%;
-  
+  flex-wrap:wrap;
+  position:relative;
 }
 .intro-resources {
   display: flex;
