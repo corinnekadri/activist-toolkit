@@ -45,6 +45,7 @@ h2 {
   color: black;
   text-align: center;
   line-height: 1.3em;
+  
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
@@ -106,7 +107,7 @@ p a {
 
 /* TODO (optional): Change the background color and/or text alignment */
 
-.text-section {
+.text-section-other {
   background-color: #FD9CCB;
   padding: 20px 45px;
   margin: 35px;

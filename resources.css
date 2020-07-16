@@ -23,7 +23,7 @@
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
-  height: 12em;
+ 
 }
 .intro-resources-img {
   display: flex;
@@ -39,7 +39,7 @@
 }
 
 .box1-text-resources{
-  margin: 8px;
+  margin: 20px;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
@@ -50,6 +50,7 @@
   width: 500px;
   background-color:#fd9ccbff;
   flex-direction:column;
+  padding:5px;
 }
 
 .box2-text-resources{
