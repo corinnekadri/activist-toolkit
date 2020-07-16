@@ -141,6 +141,7 @@ p a {
   font-family: "Jaldi", sans-serif;
   display: flex;
   width: 600px;
+  position: relative; bottom: -90px;
 }
 
 .menstrual-taxes-img {
@@ -155,13 +156,22 @@ p a {
   border: 15px;
   padding: 75px;
   margin: 20px;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: left;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 600px;
+  position: relative; bottom: -100px; left: -27px;
 }
 
 .menstrual-change-img {
   display: flex;
   margin: 50px;
   float:right;
-  position: relative; top: -115px;
+  position: relative; top: -375px; right: 0px;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
