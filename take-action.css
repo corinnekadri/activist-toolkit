@@ -38,20 +38,22 @@
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
-  width: 100%;
+  width: 25%;
   margin-right: 5%;
+  margin-right:10px;
   margin-left: 0;
   margin-top: 5%;
   margin-bottom: 5%;
   padding-right: 35px;
-  padding-left: 35px;
+  padding-left: 5px;
   padding-top: 0px;
   padding-bottom: 0px;
   color: black;
   flex-grow: 2;
   font-family: "Jaldi", sans-serif;
   font-size: 16px;
-  overflow:hidden;
+  display:flex;
+  flex-wrap:wrap;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -65,7 +67,7 @@
 
 /* Right box under title; item in .flex-container */
 .action-list-container {
-  width: 20%;
+  width: 50%;
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
