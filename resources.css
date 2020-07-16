@@ -26,6 +26,9 @@
  
 }
 
+.intro-resources-img{}
+
+
 .box123-resources {
   width:100%;
   display: flex;
@@ -78,7 +81,6 @@
   background-color:#fd9ccbff;
   flex-direction:column;
 }
-
 
 
 
