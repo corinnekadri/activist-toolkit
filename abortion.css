@@ -47,6 +47,19 @@ h2 {
   line-height: 1.3em;
 }
 
+h3{
+  width: 200px;
+  border: 15px;
+  padding: 10px;
+  margin: 20px;
+}
+
+p {
+  width: 500px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
@@ -59,7 +72,7 @@ p a {
 /************************************************/
 
 /* TODO: Review the CSS properties to the flexbox container for title and intro text */
-.flex-container-abortion {
+.flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -68,22 +81,36 @@ p a {
   width: 45em;
   width: 100%;
 
+  /* Design properties */
+  background-color: #fd9ccbff;
+  padding: 5px;
+
+  /* Positioning properties */
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 40%; /* Change this value to move the box up or down */
+
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
 
-/* TODO: Review the CSS properties to the flex item for the heading (the left box) */
-
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
-.intro-text-abortion {
-  background-color: #FD9CCB;
-  padding: 20px 45px;
-  margin: 35px;
+.intro-text {
+  background-color: #FFD6EAFF; /* Add your own background color */
+  padding: 4%;
+  margin: 2%;
+  margin-left: 1px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 2px; /* Adds space between letters */
+  line-height: 1.4em; /* Adds space between lines */
   text-align: center;
-}
+  font-family: "Jaldi", sans-serif;
 
-/*Debugging Tip: Uncomment the line below to see the outline of the container*/
-/*border-style: dotted;*/
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
 
 /************************************************/
 /*************** PARALLAX SCROLL ****************/
@@ -93,19 +120,120 @@ p a {
 
 /* TODO (optional): Change the background color and/or text alignment */
 
-.text-section-abortion {
+.text-section-menstrual {
   background-color: #FD9CCB;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
 }
 
+.menstrual-taxes-text {
+  width: 700px;
+  border: 15px;
+  padding: 75px;
+  margin: 20px;
+  margin: 8px;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: left;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 600px;
+  position: relative; bottom: -100px; left: -50px;
+}
+.menstrual-taxes {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+.menstrual-taxes-img {
+  display: flex;
+  margin: 50px;
+  float:right;
+  position: relative; top: 90px;
+  border: 8px solid white;
+  border-radius:0%;
+  
+}
+
+
+.pink-tax {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.pink-tax-text {
+  width: 700px;
+  border: 15px;
+  padding: 75px;
+  margin: 20px;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: left;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 600px;
+  position: relative; bottom: -100px; left: -30px;
+}
+
+.pink-tax-img {
+  display: flex;
+  margin: 50px;
+  float:right;
+  position: relative; top: 100px; right: 0px;
+  border: 8px solid white;
+  border-radius:0%;
+} 
+
+
+.menstrual-change {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.menstrual-change-text {
+  width: 700px;
+  border: 15px;
+  padding: 75px;
+  margin: 20px;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: left;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 600px;
+  position: relative; bottom: -100px; left: -125px;
+}
+
+.menstrual-change-img {
+  display: flex;
+  margin: 50px;
+  float:right;
+  position: relative; top: 100px; right: 40px;
+  border: 8px solid white;
+  border-radius:0%;
+  height: 450px;
+  width: 300px;
+} 
+
+
+
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
-.main-message-abortion,
-.image-one-abortion {
+.main-message-menstrual-products,
+.image-one-menstraul-products {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,12 +245,12 @@ p a {
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
-.main-message-abortion {
+.main-message-menstrual-products {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
 }
 
 /* TODO: Replace the current image URL with your own */
-.image-one-abortion {
+.image-one-menstrual-products {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
 }
 
@@ -138,8 +266,54 @@ p a {
 }
 
 /******************************************************/
-/***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
+/** CHANGE TAKE-ACTION.HTML CSS BASED ON SCREEN SIZE **/
 /******************************************************/
+
+/* IF THE SCREEN IS ~~700 OR LESS~~ IMPLEMENT THESE RULES */
+
+@media only screen and (max-width: 700px) {
+  .flex-container-action {
+    flex-wrap: wrap;
+  }
+}
+
+/* IF THE SCREEN IS ~~701 OR MORE~~ IMPLEMENT THESE RULES */
+
+@media only screen and (min-width: 702px) {
+  .flex-container-action {
+    flex-wrap: wrap;
+  }
+
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+}
+
+/* IF THE SCREEN IS ~~1000 OR MORE~~ IMPLEMENT THESE RULES */
+@media only screen and (min-width: 1000px) {
+  .flex-container-action {
+    flex-wrap: nowrap;
+  }
+}
+
+/* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
+@media only screen and (min-width: 1250px) {
+  .flex-container-action {
+    flex-wrap: nowrap;
+  }
+
+  #list-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 20px 40px 40px;
+  }
+
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+}
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 
