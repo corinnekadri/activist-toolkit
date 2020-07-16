@@ -38,13 +38,13 @@
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
-  width: 100%;
+  width: 45%;
   margin-right: 5%;
   margin-right:10px;
   margin-left: 0;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding-right: 5px;
+  padding-right: 35px;
   padding-left: 5px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -54,7 +54,6 @@
   font-size: 16px;
   display:flex;
   flex-wrap:wrap;
-  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -115,7 +114,7 @@
 #my-list li {
   cursor: pointer;
   padding-top: 8px;
-  padding-right: 35px;
+  padding-right: 30px;
   padding-bottom: 8px;
   padding-left: 35px;
   position: relative;
@@ -231,3 +230,6 @@ like a checkmark!
     margin-right: 10%;
   }
 }
+
+
+
