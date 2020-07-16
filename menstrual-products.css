@@ -127,9 +127,14 @@ p a {
   text-align: center;
 }
 
-.intro-resources-img {
+.menstrual-img {
   display: flex;
-  margin: 8px;
+  margin: 50px;
+/*   text-align: right; */
+/*   width:150px;
+  height:150px; */
+  float:right;
+  position: relative; top: -300px;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
