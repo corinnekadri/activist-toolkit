@@ -173,12 +173,19 @@ p a {
   position: relative; bottom: -100px; left: -30px;
 }
 
+.menstrual-change {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+
 .menstrual-change-img {
   display: flex;
   margin: 50px;
   float:right;
   position: relative; top: -375px; right: 0px;
-}
+} 
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
