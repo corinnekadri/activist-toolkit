@@ -24,11 +24,13 @@ h1 {
   background-color: #fd9ccbff;
 }
 .protest-img{
-  border: 8px solid #fd9ccbff;
+  border: 8px solid white;
+  border-radius:40%;
 }
 
 .glove-img{
-  border: 8px solid #fd9ccbff;
+  border: 8px solid white;
+  border-radius:40%;
 }
 
 /* Flexbox container that holds all flex items */
