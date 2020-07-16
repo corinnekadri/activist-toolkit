@@ -7,14 +7,20 @@
 /******************************************************/
 .take-action{
   height:100%;
-  width:100%
-  
+  width:100%;
+  margin-bottom:7em;
+  margin:20%;
+  display:flex;
+  flex-wrap:wrap;
 }
 .resources{
   height:100%;
-  width:100%
-  
+  width:100%;
+  display:flex;
+  flesx
 }
+
+
 .take-action-full{
 height:100%;
   
@@ -102,7 +108,11 @@ h1 {
   
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
-
+section.wrapper {
+  min-width: 400px; /* Minimum width of your wrapper element */
+  overflow: hidden;
+  display: inline-block;
+}
 .action-info-container img {
   width: 100%;
 }
