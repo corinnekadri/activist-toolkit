@@ -355,7 +355,8 @@ like a checkmark!
   background-color:#fd9ccbff;
   flex-direction:column;
    border: 8px solid white;
-  border-radius:20%;
+  text-decoration: underline;
+  
 }
 
 
@@ -398,3 +399,21 @@ h4 {
   margin-top:7px;
   margin-bottom:-7px;
 }
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
