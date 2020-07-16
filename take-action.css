@@ -8,7 +8,7 @@
 .take-action-full{
   display:flex;
   flex-direction:column;
-  flex-wrap:nowrap;
+  
 
 width:100%;
   
@@ -45,7 +45,7 @@ h1 {
 }
 .take-action{
   height:140%;
-  overflow:hidden;
+  
 }
 .resources{
   height:140%;
