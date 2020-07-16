@@ -127,6 +127,11 @@ p a {
   text-align: center;
 }
 
+.intro-resources-img {
+  display: flex;
+  margin: 8px;
+}
+
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */

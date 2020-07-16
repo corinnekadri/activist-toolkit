@@ -25,44 +25,50 @@
   justify-content: space-around;
  
 }
-/* .intro-resources-img {
+.menstrual-img {
   display: flex;
-  margin: 8px;
+  margin: 50px;
+/*   text-align: right; */
+/*   width:150px;
+  height:150px; */
+  float:right;
+  position: relative; top: -300px;
 }
- */
+
 .box123-resources {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   
 }
 
 .box1-text-resources{
-  margin: 20px;
+  margin: 8px;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 0px; /* Adds space between letters */
-  line-height: 0; /* Adds space between lines */
+  line-height: 0px; /* Adds space between lines */
   text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width: 500px;
+  width:500px;
   background-color:#fd9ccbff;
   flex-direction:column;
   padding:5px;
+  
 }
 
 .box2-text-resources{
   margin: 8px;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
-  letter-spacing: 2px; /* Adds space between letters */
-  line-height: 1.4em; /* Adds space between lines */
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 0px; /* Adds space between lines */
   text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width: 500px;
+ width:500px;
   background-color:#fd9ccbff;
   flex-direction:column;
 }
