@@ -370,11 +370,11 @@ like a checkmark!
   font-size: 20px; /* Add your font size*/
   letter-spacing: 0px; /* Adds space between letters */
   line-height: 40px; /* Adds space between lines */
-  text-align: left;
+  text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
   width:700px;
-  background-color:#fd9ccbff;
+  background-color:#ffb8db;
   flex-direction:column;
   padding:8px;
   border: 8px solid white;
@@ -407,7 +407,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: #fc4ea2;
 }
 
 /* mouse over link */
