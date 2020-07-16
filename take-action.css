@@ -9,12 +9,10 @@
 .page-header-action {
   width: 100%;
   position: absolute;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: #fd9ccbff;
 }
-
-
 
 /* Flexbox container that holds all flex items */
 .flex-container-action {
@@ -34,7 +32,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: start;
-  background-color:#ffd6eaff;
+  background-color: #ffd6eaff;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -49,18 +47,18 @@
   padding-left: 35px;
   padding-top: 0px;
   padding-bottom: 0px;
-  color:black;
+  color: black;
   flex-grow: 2;
   font-family: "Jaldi", sans-serif;
-   font-size: 16px;
+  font-size: 16px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 .action-info-container img {
   width: 100%;
 }
-#script{
-  color:black;
+#script {
+  color: black;
 }
 
 /* Right box under title; item in .flex-container */
@@ -79,8 +77,8 @@
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
-  border-style:  solid ;
-    border-color:#fd9ccbff;
+  border-style: solid;
+  border-color: #fd9ccbff;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -98,7 +96,7 @@
   text-align: center;
   font-style: italic;
   color: black;
-  /*border-style: dotted; *//*Uncomment to see the outline of the container*/
+  /*border-style: dotted; */ /*Uncomment to see the outline of the container*/
 }
 
 /* The div container for the unordered action item list */
@@ -147,7 +145,7 @@ like a checkmark!
 
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
-  background:#f3f3f3;
+  background: #f3f3f3;
   color: #fd9ccbff;
 }
 
@@ -160,7 +158,7 @@ like a checkmark!
 /* When marked complete (i.e. clicked on) add strikethrough */
 #my-list li.all-done {
   text-decoration: line-through;
-  color:#fd9ccbff;
+  color: #fd9ccbff;
 }
 
 /* Add a "checked" mark when clicked on */
@@ -176,8 +174,6 @@ like a checkmark!
   height: 15px;
   width: 7px;
 }
-
-
 
 /******************************************************/
 /** CHANGE TAKE-ACTION.HTML CSS BASED ON SCREEN SIZE **/
@@ -228,5 +224,3 @@ like a checkmark!
     margin-right: 10%;
   }
 }
-
-
