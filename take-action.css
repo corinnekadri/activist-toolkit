@@ -72,6 +72,9 @@
   padding-top: 5px;
   padding-bottom: 15px;
   border: 10px solid #fd9ccbff;
+  
+  overflow:hidden;
+  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
