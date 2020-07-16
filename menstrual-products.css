@@ -47,8 +47,15 @@ h2 {
   line-height: 1.3em;
 }
 
-p1 {
-  width: 300px;
+h3{
+  width: 200px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+
+p {
+  width: 500px;
   border: 15px;
   padding: 50px;
   margin: 20px;

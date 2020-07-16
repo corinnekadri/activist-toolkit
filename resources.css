@@ -25,11 +25,11 @@
   justify-content: space-around;
  
 }
-.intro-resources-img {
+/* .intro-resources-img {
   display: flex;
   margin: 8px;
 }
-
+ */
 .box123-resources {
   display: flex;
   flex-wrap: nowrap;
