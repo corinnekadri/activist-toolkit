@@ -45,7 +45,13 @@ h2 {
   color: black;
   text-align: center;
   line-height: 1.3em;
-  
+}
+
+p1 {
+  width: 300px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
