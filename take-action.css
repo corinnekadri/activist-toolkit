@@ -6,23 +6,17 @@
 /***************** ACTION ITEM LIST *******************/
 /******************************************************/
 .take-action{
-  height:140%;
+  height:250%;
+  width:100%
   
-  align-items:flex-start;
 }
 .resources{
-  height:140%;
+  height:250%;
+  width:100%
   
-  align-items:flex-end;
 }
 .take-action-full{
-  display:flex;
-  
-  flex-direction:column;
-  
-  
-
-width:100%;
+height:100%;
   
 }
 
