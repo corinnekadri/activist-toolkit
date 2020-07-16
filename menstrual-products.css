@@ -157,7 +157,7 @@ p a {
   position: relative; top: 90px;
   padding:8px;
   border: 8px solid white;
-  border-radius:20%;
+  border-radius:0%;
   
 }
 
@@ -190,7 +190,7 @@ p a {
   float:right;
   position: relative; top: 100px; right: 0px;
   border: 8px solid white;
-  border-radius:20%;
+  border-radius:0%;
 } 
 
 
