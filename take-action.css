@@ -5,8 +5,27 @@
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
 /******************************************************/
-
+.take-action{
+  height:140%;
   
+  
+}
+.resources{
+  height:140%;
+  
+}
+.take-action-full{
+  display:flex;
+  flex-direction:column;
+  flex-grow: 1;
+    flex-shrink: 0;
+  flex-flow:column wrap;
+
+width:100%;
+  
+}
+
+
 
 h1 {
   margin: 2%;
@@ -38,16 +57,7 @@ h1 {
   display: flex;
   width: 500px;
 }
-.take-action{
-  height:140%;
-  flex-wrap:wrap;
-  position:relative;
-}
-.resources{
-  height:140%;
-  flex-wrap:wrap;
-  position:relative;
-}
+
 .intro-resources {
   display: flex;
   flex-wrap: nowrap;
