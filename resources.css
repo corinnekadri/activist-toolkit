@@ -25,15 +25,15 @@
   justify-content: space-around;
  
 }
-.menstrual-img {
+/* .menstrual-img {
   display: flex;
   margin: 50px;
-/*   text-align: right; */
-/*   width:150px;
-  height:150px; */
+  text-align: right;
+  width:150px;
+  height:150px;
   float:right;
   position: relative; top: -300px;
-}
+} */
 
 .box123-resources {
   display: flex;
