@@ -8,6 +8,8 @@
 .take-action-full{
   display:flex;
   flex-direction:column;
+  flex-wrap:nowrap;
+position:absolute;
 width:100%;
   
 }
@@ -29,7 +31,12 @@ width:100%;
   display: flex;
   width: 500px;
 }
-
+.take-action{
+  height:125%;
+}
+.resources{
+  height:150%;
+}
 .intro-resources {
   display: flex;
   flex-wrap: nowrap;
