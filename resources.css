@@ -5,7 +5,9 @@
   background-color: #FFD6EA;
   font-family: "Barlow Semi Condensed", sans-serif; /* Change the font */
 }
-
+.resources{
+  /*border-style: dotted;*/
+}
 .intro-text-resources {
   margin: 8px;
   color: black; /* Add the color of your font */
