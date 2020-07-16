@@ -7,19 +7,20 @@
 /******************************************************/
 .take-action{
   height:140%;
-  overflow:hidden;
   
+  align-items:flex-start;
 }
 .resources{
   height:140%;
-  overflow:hidden;
   
+  align-items:flex-end;
 }
 .take-action-full{
   display:flex;
+  
   flex-direction:column;
   
-  flex-flow:column wrap;
+  
 
 width:100%;
   
