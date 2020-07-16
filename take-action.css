@@ -5,7 +5,17 @@
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
 /******************************************************/
-
+h1 {
+  margin: 2%;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 60px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #fd9ccbff;
+  border: 2px solid #FFEFFC;
+}
 .page-header-action {
   width: 100%;
   position: absolute;

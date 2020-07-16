@@ -120,14 +120,14 @@ p a {
 
 /* TODO (optional): Change the background color and/or text alignment */
 
-.text-section-menstrual {
+.text-section-cancer-issue {
   background-color: #FD9CCB;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
 }
 
-.menstrual-taxes-text {
+.cancer-text {
   width: 700px;
   border: 15px;
   padding: 75px;
@@ -143,14 +143,14 @@ p a {
   width: 600px;
   position: relative; bottom: -100px; left: -50px;
 }
-.menstrual-taxes {
+.cancer {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
  
 }
-.menstrual-taxes-img {
+.cancer-img {
   display: flex;
   margin: 50px;
   float:right;
@@ -161,13 +161,13 @@ p a {
 }
 
 
-.pink-tax {
+.cancer2 {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around; 
 }
-.pink-tax-text {
+.cancer2-text {
   width: 700px;
   border: 15px;
   padding: 75px;
@@ -183,7 +183,7 @@ p a {
   position: relative; bottom: -100px; left: -30px;
 }
 
-.pink-tax-img {
+.cancer2-img {
   display: flex;
   margin: 50px;
   float:right;
@@ -193,13 +193,13 @@ p a {
 } 
 
 
-.menstrual-change {
+.cancer3 {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around; 
 }
-.menstrual-change-text {
+.cancer3-text {
   width: 700px;
   border: 15px;
   padding: 75px;
@@ -215,7 +215,7 @@ p a {
   position: relative; bottom: -100px; left: -125px;
 }
 
-.menstrual-change-img {
+.cancer3-img {
   display: flex;
   margin: 50px;
   float:right;
