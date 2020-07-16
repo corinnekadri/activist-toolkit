@@ -10,16 +10,21 @@
   flex-direction:column;
   flex-wrap:nowrap;
 
+width:100%;
+  
+}
+h1 {
+  margin: 2%;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 60px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #fd9ccbff;
+  border: 2px solid #FFEFFC;
+}
 
-}
-take-action{
-  height:140%;
-  
-}
-.resources{
-  height:140%;
-  
-}
 .page-header-action {
   width: 100%;
   position: absolute;
@@ -38,7 +43,14 @@ take-action{
   display: flex;
   width: 500px;
 }
-.
+.take-action{
+  height:140%;
+  overflow:hidden;
+}
+.resources{
+  height:140%;
+  
+}
 .intro-resources {
   display: flex;
   flex-wrap: nowrap;
