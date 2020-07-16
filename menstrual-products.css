@@ -26,16 +26,26 @@ html {
 }
 
 h1 {
-  letter-spacing: 5px;
-  font-size: 50px;
-  /*TODO: Change the font-family property to your linked font*/
-  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 2%;
   color: black;
-  line-height: 60px;
+  font-size: 50px;
   text-align: center;
+  letter-spacing: 5px;
+  line-height: 60px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #fd9ccbff;
+  border: 2px solid #FFEFFC;
 }
 
 /*TODO: Change the font-family property to your linked font*/
+h2 {
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: black;
+  text-align: center;
+  line-height: 1.3em;
+}
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
@@ -96,21 +106,12 @@ p a {
 
 /* TODO (optional): Change the background color and/or text alignment */
 
-.menstrual {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: start;
-  height: 12em;
+.text-section {
+  background-color: #FD9CCB;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
 }
-.menstrual-img {
-  display: flex;
-  margin: 8px;
-  justify-content: center;
-  align-items: start;
-}
-
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
