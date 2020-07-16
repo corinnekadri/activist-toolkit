@@ -54,7 +54,7 @@ h3{
   margin: 20px;
 }
 
-p1 {
+p {
   width: 500px;
   border: 15px;
   padding: 50px;
@@ -127,6 +127,13 @@ p a {
   text-align: center;
 }
 
+.menstrual {
+ background-color: #FD9CCB;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
+}
+
 .menstrual-img {
   display: flex;
   margin: 50px;
@@ -134,7 +141,7 @@ p a {
 /*   width:150px;
   height:150px; */
   float:right;
-  position: relative; top: -300px;
+  position: relative; top: -250px;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
