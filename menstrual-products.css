@@ -127,7 +127,7 @@ p a {
   text-align: left;
 }
 
-.menstrual-taxes {
+.menstrual-taxes-text {
   width: 700px;
   border: 15px;
   padding: 75px;
@@ -143,14 +143,20 @@ p a {
   width: 600px;
   position: relative; bottom: -90px;
 }
-
-.menstrual-taxes-img {
+.menstrual-taxes {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+/*.menstrual-taxes-img {
   display: flex;
   margin: 50px;
   float:right;
   position: relative; top: -315px;
 }
-
+*/
 .menstrual-change {
   width: 700px;
   border: 15px;
@@ -164,7 +170,7 @@ p a {
   font-family: "Jaldi", sans-serif;
   display: flex;
   width: 600px;
-  position: relative; bottom: -100px; left: -27px;
+  position: relative; bottom: -100px; left: -30px;
 }
 
 .menstrual-change-img {
