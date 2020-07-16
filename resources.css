@@ -30,6 +30,47 @@
   margin: 8px;
 }
 
+.box123-resources {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.box1-text-resources{
+  margin: 8px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 2px; /* Adds space between letters */
+  line-height: 0; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 500px;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+}
+
+.box2-text-resources{
+  margin: 8px;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 2px; /* Adds space between letters */
+  line-height: 1.4em; /* Adds space between lines */
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 500px;
+  background-color:#fd9ccbff;
+  flex-direction:column;
+}
+
+
+
+
+
+
 /* Flexbox container that holds all flex items */
 .flex-container-action {
   display: flex;
