@@ -48,6 +48,8 @@ h1 {
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
+  display:flex;
+  flex-direction:row;
   width: 100%;
   margin-right: 5%;
   margin-left: 0;
