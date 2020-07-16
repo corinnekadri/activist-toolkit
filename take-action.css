@@ -250,6 +250,7 @@ like a checkmark!
   text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
+  height:12em;
   width:500px;
   background-color:#fd9ccbff;
   flex-direction:column;
