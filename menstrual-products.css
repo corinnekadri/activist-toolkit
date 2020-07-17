@@ -142,18 +142,18 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
+  
+  justify-content: space-evenly;
+  text-align:center;
  
 }
 .menstrual-taxes-img {
-  display: flex;
-  margin: 50px;
-  float:right;
-  position: relative; 
-  top: 90px;
-  border: 8px solid white;
-  border-radius:0%;
-  
+  width:100%;
+  height:100%;
+  margin-bottom:12em;
+  margin-left:1em;
+  margin-right:-1.5em;
+  margin-top:1em;
 }
 
 
@@ -161,7 +161,9 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around; 
+  
+  justify-content: space-evenly;
+  text-align:center; 
 }
 .pink-tax-text {
   margin-bottom:12em;
@@ -182,12 +184,12 @@ p a {
 }
 
 .pink-tax-img {
-  display: flex;
-  margin: 50px;
-  float:right;
-  position: relative; top: 100px; right: 0px;
-  border: 8px solid white;
-  border-radius:0%;
+  width:100%;
+  height:100%;
+  margin-bottom:12em;
+  margin-left:1em;
+  margin-right:-1.5em;
+  margin-top:1em;
 } 
 
 
@@ -195,7 +197,9 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around; 
+  
+  justify-content: space-evenly;
+  text-align:center;
 }
 .menstrual-change-text {
   margin-bottom:12em;
@@ -216,14 +220,12 @@ p a {
 }
 
 .menstrual-change-img {
-  display: flex;
-  margin: 50px;
-  float:right;
-  position: relative; top: 100px; right: 40px;
-  border: 8px solid white;
-  border-radius:0%;
-  height: 450px;
-  width: 300px;
+  width:100%;
+  height:100%;
+  margin-bottom:12em;
+  margin-left:1em;
+  margin-right:-1.5em;
+  margin-top:1em;
 } 
 
 

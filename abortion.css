@@ -121,7 +121,9 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
+  
+  justify-content: space-evenly;
+  text-align:center;
  
 }
 .abortion-img {
@@ -129,11 +131,8 @@ p a {
   height:100%;
   margin-bottom:12em;
   margin-left:1em;
-  margin-right:1em;
+  margin-right:-1.5em;
   margin-top:1em;
-  position: relative; 
-  left: 300px;
-  top: 200px;
 }
 
 
@@ -141,7 +140,9 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around; 
+  
+  justify-content: space-evenly;
+  text-align:center;
 }
 .birthcontrol-text {
   margin-bottom:12em;
@@ -166,11 +167,8 @@ p a {
   height:100%;
   margin-bottom:12em;
   margin-left:1em;
-  margin-right:1em;
+  margin-right:-1.5em;
   margin-top:1em;
-  position: relative; 
-  left: 300px;
-  top: 100px;
 } 
 
 
@@ -178,7 +176,9 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around; 
+  
+  justify-content: space-evenly;
+  text-align:center;
 }
 .reproduction-change-text {
   margin-bottom:12em;
@@ -203,11 +203,8 @@ p a {
   height:100%;
   margin-bottom:12em;
   margin-left:1em;
-  margin-right:1em;
+  margin-right:-1.5em;
   margin-top:1em;
-  position: relative; 
-  left: 300px;
-  top: 100px;
 } 
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
