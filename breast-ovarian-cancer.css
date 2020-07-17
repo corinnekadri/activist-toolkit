@@ -127,7 +127,7 @@ p a {
   text-align: center;
 }
 
-.cancer-text {
+.cancer-financial-impact-text {
   width: 700px;
   border: 15px;
   padding: 75px;
@@ -143,14 +143,14 @@ p a {
   width: 600px;
   position: relative; bottom: -100px; left: -50px;
 }
-.cancer {
+.cancer-financial-impact {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
  
 }
-.cancer-img {
+.cancer-financial-impact-img {
   display: flex;
   margin: 50px;
   float:right;
