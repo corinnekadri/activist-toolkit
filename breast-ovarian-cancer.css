@@ -141,7 +141,9 @@ p a {
   font-family: "Jaldi", sans-serif;
   display: flex;
   width: 600px;
-  position: relative; bottom: -100px; left: -50px;
+  position: relative; 
+  bottom: -100px; 
+  left: -125px;
 }
 .cancer-financial-impact {
   display: flex;
@@ -154,11 +156,11 @@ p a {
   display: flex;
   margin: 50px;
   float:right;
-  position: relative; top: 90px;
-  border: 8px solid white;
-  border-radius:0%;
-  width: 635px;
-  height: 750px;
+  position: relative; 
+  top: 90px; 
+  right: 200px;
+  width: 250px;
+  height: 350px;
   
 }
 
@@ -182,7 +184,9 @@ p a {
   font-family: "Jaldi", sans-serif;
   display: flex;
   width: 600px;
-  position: relative; bottom: -100px; left: -30px;
+  position: relative; 
+  bottom: -100px; 
+  left: -70px;
 }
 
 .cancer-body-image-img {
@@ -214,14 +218,18 @@ p a {
   font-family: "Jaldi", sans-serif;
   display: flex;
   width: 600px;
-  position: relative; bottom: -100px; left: -125px;
+  position: relative; 
+  bottom: -100px; 
+  left: -60px;
 }
 
 .cancer-take-care-img {
   display: flex;
   margin: 50px;
   float:right;
-  position: relative; top: 100px; right: 40px;
+  position: relative; 
+  top: 125px; 
+  left: 50px;
   height: 450px;
   width: 450px;
 } 
