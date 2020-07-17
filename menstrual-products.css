@@ -141,7 +141,9 @@ p a {
   font-family: "Jaldi", sans-serif;
   display: flex;
   width: 600px;
-  position: relative; bottom: -100px; left: -90px;
+  position: relative; 
+  bottom: -100px; 
+  left: -90px;
 }
 .menstrual-taxes {
   display: flex;
@@ -154,7 +156,8 @@ p a {
   display: flex;
   margin: 50px;
   float:right;
-  position: relative; top: 90px;
+  position: relative; 
+  top: 90px;
   border: 8px solid white;
   border-radius:0%;
   
