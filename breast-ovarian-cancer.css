@@ -130,7 +130,7 @@ p a {
 
 .cancer-financial-impact-text {
   margin-bottom:12em;
-  margin-left:1em;
+  margin-left:2em;
   margin-right:1em;
    margin-top:1em;
   color: black; /* Add the color of your font */
@@ -151,7 +151,7 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align:center;
  
 }
@@ -160,7 +160,7 @@ p a {
   height:100%;
   margin-bottom:12em;
   margin-left:1em;
-  margin-right:1em;
+  margin-right:-1.5em;
    margin-top:1em;
 }
 
@@ -169,16 +169,16 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around; 
-  justify-content: space-around;
+ 
+  justify-content: space-evenly;
   text-align:center;
  
 }
 .cancer-body-image-text {
   margin-bottom:12em;
-  margin-left:1em;
+  margin-left:2em;
   margin-right:1em;
-   margin-top:1em;
+  margin-top:1em;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 0px; /* Adds space between letters */
@@ -199,7 +199,7 @@ p a {
   height:100%;
   margin-bottom:12em;
   margin-left:1em;
-  margin-right:1em;
+  margin-right:-1.5em;
    margin-top:1em;
 } 
 
@@ -209,13 +209,13 @@ p a {
   flex-wrap: nowrap;
   flex-direction: row;
   
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align:center;
  
 }
 .cancer-take-care-text {
   margin-bottom:12em;
-  margin-left:1em;
+  margin-left:2em;
   margin-right:1em;
    margin-top:1em;
   color: black; /* Add the color of your font */
@@ -238,7 +238,7 @@ p a {
   height:100%;
   margin-bottom:12em;
   margin-left:1em;
-  margin-right:1em;
+  margin-right:-1.5em;
    margin-top:1em;
 } 
 

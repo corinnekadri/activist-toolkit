@@ -47,12 +47,6 @@ h2 {
   line-height: 1.3em;
 }
 
-h3{
-  width: 200px;
-  border: 15px;
-  padding: 10px;
-  margin: 20px;
-}
 
 p {
   width: 500px;
@@ -128,22 +122,21 @@ p a {
 }
 
 .menstrual-taxes-text {
-  width: 700px;
-  border: 15px;
-  padding: 75px;
-  margin: 20px;
-  margin: 8px;
-  color: black; 
-  font-size: 20px; 
-  letter-spacing: 2px; 
-  line-height: 1.4em; 
-  text-align: left;
+  margin-bottom:12em;
+  margin-left:2em;
+  margin-right:1em;
+  margin-top:1em;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 40px; /* Adds space between lines */
+  text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width: 600px;
-  position: relative; 
-  bottom: -100px; 
-  left: -90px;
+  width:800px;
+ 
+  
+  flex-direction:column;
 }
 .menstrual-taxes {
   display: flex;
@@ -171,19 +164,21 @@ p a {
   justify-content: space-around; 
 }
 .pink-tax-text {
-  width: 700px;
-  border: 15px;
-  padding: 75px;
-  margin: 20px;
-  color: black; 
-  font-size: 20px; 
-  letter-spacing: 2px; 
-  line-height: 1.4em; 
-  text-align: left;
+  margin-bottom:12em;
+  margin-left:2em;
+  margin-right:1em;
+  margin-top:1em;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 40px; /* Adds space between lines */
+  text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width: 600px;
-  position: relative; bottom: -100px; left: -30px;
+  width:800px;
+ 
+  
+  flex-direction:column;
 }
 
 .pink-tax-img {
@@ -203,19 +198,21 @@ p a {
   justify-content: space-around; 
 }
 .menstrual-change-text {
-  width: 700px;
-  border: 15px;
-  padding: 75px;
-  margin: 20px;
-  color: black; 
-  font-size: 20px; 
-  letter-spacing: 2px; 
-  line-height: 1.4em; 
-  text-align: left;
+  margin-bottom:12em;
+  margin-left:2em;
+  margin-right:1em;
+  margin-top:1em;
+  color: black; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 0px; /* Adds space between letters */
+  line-height: 40px; /* Adds space between lines */
+  text-align: center;
   font-family: "Jaldi", sans-serif;
   display: flex;
-  width: 600px;
-  position: relative; bottom: -100px; left: -125px;
+  width:800px;
+ 
+  
+  flex-direction:column;
 }
 
 .menstrual-change-img {
