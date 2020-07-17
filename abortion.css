@@ -93,12 +93,121 @@ p a {
 
 /* TODO (optional): Change the background color and/or text alignment */
 
-.text-section-abortion {
+.text-section-cancer-issue {
   background-color: #FD9CCB;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
 }
+
+.abortion-text {
+  width: 700px;
+  border: 15px;
+  padding: 75px;
+  margin: 20px;
+  margin: 8px;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: left;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 600px;
+  position: relative; 
+  bottom: -100px; 
+  left: -150px;
+}
+.abortion {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+.abortion-img {
+  display: flex;
+  margin: 50px;
+  float:right;
+  position: relative; 
+  top: 90px; 
+  right: 200px;
+  width: 250px;
+  height: 350px;
+  
+}
+
+
+.birthcontrol {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.birthcontrol-text {
+  width: 700px;
+  border: 15px;
+  padding: 75px;
+  margin: 20px;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: left;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 600px;
+  position: relative; 
+  bottom: -100px; 
+  left: -50px;
+}
+
+.birthcontrol-img {
+  display: flex;
+  margin: 50px;
+  float:right;
+  position: relative; 
+  top: 200px; 
+  right: 0px;
+  height: 250px;
+  width: 540px;
+} 
+
+
+.reproduction-change {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.reproduction-change-text {
+  width: 900px;
+  border: 15px;
+  padding: 75px;
+  margin: 20px;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: left;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width: 600px;
+  position: relative; 
+  bottom: -100px; 
+  left: -70px;
+}
+
+.cancer-take-care-img {
+  display: flex;
+  margin: 50px;
+  float:right;
+  position: relative; 
+  top: 90px; 
+  left: 0px;
+  height: 450px;
+  width: 450px;
+} 
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
