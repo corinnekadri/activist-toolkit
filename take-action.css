@@ -16,6 +16,26 @@ h1 {
   background-color: #fd9ccbff;
   border: 2px solid #FFEFFC;
 }
+
+.checklist-column{
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+  
+  margin-right: 5%;
+  margin-left: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: black;
+  flex-grow: 2;
+  font-family: "Jaldi", sans-serif;
+  font-size: 16px;
+}
+
 .page-header-action {
   width: 100%;
   position: absolute;
@@ -368,8 +388,9 @@ like a checkmark!
 
 
 .box7-text-resources{
-  margin: 8px;
   
+  padding-left:12px;
+  height:11.2em;
   color: black; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 0px; /* Adds space between letters */
@@ -378,7 +399,7 @@ like a checkmark!
   font-family: "Jaldi", sans-serif;
   display: flex;
   width:400px;
-  background-color:#ffb8db;
+  background-color:#fd9ccbff;
   flex-direction:column;
   
   border: 8px solid white;
