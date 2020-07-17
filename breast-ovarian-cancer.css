@@ -145,13 +145,14 @@ p a {
   
   flex-direction:column;
   
-   border: 8px solid white;
+   
 }
 .cancer-financial-impact {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
+  text-align:center;
  
 }
 .cancer-financial-impact-img {
@@ -169,6 +170,9 @@ p a {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around; 
+  justify-content: space-around;
+  text-align:center;
+ 
 }
 .cancer-body-image-text {
   margin-bottom:12em;
@@ -187,7 +191,7 @@ p a {
   
   flex-direction:column;
   
-   border: 8px solid white;
+   
 }
 
 .cancer-body-image-img {
@@ -204,7 +208,10 @@ p a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around; 
+  
+  justify-content: space-around;
+  text-align:center;
+ 
 }
 .cancer-take-care-text {
   margin-bottom:12em;
