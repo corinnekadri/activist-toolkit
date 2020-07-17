@@ -161,13 +161,13 @@ p a {
 }
 
 
-.cancer2 {
+.cancer-body-image {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around; 
 }
-.cancer2-text {
+.cancer-body-image-text {
   width: 700px;
   border: 15px;
   padding: 75px;
@@ -183,7 +183,7 @@ p a {
   position: relative; bottom: -100px; left: -30px;
 }
 
-.cancer2-img {
+.cancer-body-image-img {
   display: flex;
   margin: 50px;
   float:right;
@@ -193,13 +193,13 @@ p a {
 } 
 
 
-.cancer3 {
+.cancer-take-care {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around; 
 }
-.cancer3-text {
+.cancer-take-care-text {
   width: 700px;
   border: 15px;
   padding: 75px;
@@ -215,7 +215,7 @@ p a {
   position: relative; bottom: -100px; left: -125px;
 }
 
-.cancer3-img {
+.cancer-take-care-img {
   display: flex;
   margin: 50px;
   float:right;
