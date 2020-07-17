@@ -116,7 +116,7 @@ p a {
   width: 700px;
   position: relative; 
   bottom: -100px; 
-  left: -150px;
+  left: -50px;
 }
 .abortion {
   display: flex;
@@ -130,10 +130,12 @@ p a {
   margin: 50px;
   float:right;
   position: relative; 
-  top: 90px; 
-  right: 200px;
-  width: 250px;
+  top: 150px; 
+  right: 50px;
+  width: 500px;
   height: 350px;
+  border: 8px solid white;
+  border-radius:0%;
   
 }
 
